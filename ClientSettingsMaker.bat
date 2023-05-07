@@ -1,9 +1,9 @@
 @echo on
 
-cd %appdata%\..\Local\Roblox\Versions\version-dc61c2db7d694b7b
+cd %appdata%\..\Local\Roblox\Versions\version-3c81ac1ee9fe4d19
 mkdir ClientSettings
 cd ClientSettings
 echo { > ClientAppSettings.json
 echo "DFIntTaskSchedulerTargetFps": 200000 >> ClientAppSettings.json
 echo } >> ClientAppSettings.json
-start %appdata%\..\Local\Roblox\Versions\version-dc61c2db7d694b7b\RobloxPlayerBeta.exe
+start %appdata%\..\Local\Roblox\Versions\version-3c81ac1ee9fe4d19\RobloxPlayerBeta.exe
